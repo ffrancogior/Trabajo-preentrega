@@ -1,0 +1,240 @@
+@font-face {
+    font-family: lora;
+    src: url(../fonts/Lora/Lora-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: quicksand;
+    src: url(../fonts/Quicksand/Quicksand-VariableFont_wght.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+}
+
+/* HEADER */
+
+header {
+    flex-wrap: wrap;
+    display: flex;
+    background-color: peachpuff;
+    
+    /* ALINEAR HORIZONTALMENTE */
+    justify-content: center;
+    
+    /* ALINEAR VERTICALMENTE */
+    align-items: center;
+
+    /* CADA COMPONENTE EN UN LADO */
+    justify-content: space-between;
+
+    width: 100vw;
+}
+
+.logo {
+    height: 100px;
+    margin-left: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+header ul {
+    list-style-type: none;
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    margin-right: 15px;
+    margin-left: 15px;
+    justify-content: center;
+    text-align: center;
+}
+
+header ul a:hover {
+    color: rgb(210, 112, 112);
+}
+
+header ul a {
+    text-decoration: none;
+    color: black;
+}
+
+header li {
+    font-size: 20px;
+    font-family: quicksand;
+    font-weight: bolder;
+}
+
+
+/* FOOTER */
+
+hr {
+    height: 4px;
+    background-color: black;
+    border: solid;
+    width: 100vw;
+}
+
+footer {
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    justify-content: space-evenly;
+    background-color: rgb(195, 154, 118);
+    padding-bottom: 20px;
+}
+
+footer .map {
+    margin: 15px 0px 0px 15px;
+    border: solid;
+}
+
+@media (max-width: 600px) {
+    footer .map {
+        width: 50%;
+        height: auto;
+    }
+}
+
+footer p {
+    font-family: quicksand;
+    display: flex;
+    flex-wrap: wrap;
+    font-weight: bold;
+    font-size: x-small;
+}
+
+footer div ul {
+    list-style-type: none;
+    flex-wrap: wrap;
+    display: flex;
+    gap: 20px;
+    margin: 0px 50px 0px 0px;
+}
+
+footer ul a {
+    text-decoration: none;
+    color: black;
+    font-size: smaller;
+}
+
+footer ul a:hover {
+    color: rgb(169, 84, 52);
+}
+
+footer div ul li {
+    border-bottom: solid rgb(195, 154, 118);
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-family: quicksand;
+    font-weight: bolder;
+}
+
+footer div ul li:hover {
+    border-color: rgb(169, 84, 52);
+}
+
+footer div ul img {
+    width: 20px;
+}
+
+
+/* INDEX */
+
+main {
+    width: 100vw;
+}
+
+.index__main-img {
+    padding-top: 25px;
+    background-color: bisque;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 7%;
+}
+
+.index__main-img img {
+    width: 28rem;
+    height: 15rem;
+    padding-top: 25px;
+}
+
+.index__main-txt {
+    display: flex;
+    background-color: bisque;
+    font-family: lora;
+    font-weight: 600;
+    font-size: 15px;
+    padding: 10px 100px 10px 100px;
+}
+
+article {
+    width: 100vw;
+}
+
+
+.index__article {
+    padding-top: 70px;
+    padding-bottom: 30px;
+    background-color: bisque;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 20px;
+} 
+
+.index__article-1 img {
+    background-color: white;
+    border: solid;
+    box-sizing: border-box;
+    padding: 0px 71px 0px 71px;
+    max-height: 264px;
+}
+
+.index__article-3 img {
+    max-width: 340px;
+    border: solid;
+}
+
+.index__article-5 img {
+    max-height: 258px;
+    border: solid;
+    background-color: white;
+    padding: 0px 70px 0px 70px;
+}
+
+.index__article-2 {
+    text-align: center;
+    font-family: lora;
+    font-weight: 700;
+    font-size: 13px;
+    text-decoration: underline;
+}
+.index__article-4 {
+    text-align: center;
+    font-family: lora;
+    font-weight: 700;
+    font-size: 13px;
+}
+
+.index__article-6 {
+    text-align: center;
+    font-family: lora;
+    font-weight: 700;
+    font-size: 13px;
+}
+
+
+/* ARTISTS */
+
+.artists__section {
+    background-color: bisque;
+}
