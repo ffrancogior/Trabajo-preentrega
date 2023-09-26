@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Galería de arte</title>
+    <link rel="stylesheet" href="../styles/css/bootstrap.min.css">
     <link rel="stylesheet" href="../styles/style.css">
+    <script src="../js/bootstrap.bundle.min.js"></script>
 </head>
 <body>
     <header>
@@ -18,7 +20,88 @@
             </ul>
         </nav>
     </header>
-    <hr>
+    <h1 class="galery__h1">
+      Cuadros
+    </h1>
+    <section class="galery__section">
+        <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5" aria-label="Slide 6"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="carousel-img-size">
+                  <img src="../img/jardin.jpg" class="d-block" alt="jardin">
+                </div>
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>EL JARDIN DE LAS DELICIAS</h5>
+                  <p>El Bosco</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="carousel-img-size">
+                  <img src="../img/grito.jpg" class="d-block" alt="grito">
+                </div>
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>El Grito</h5>
+                  <p>Edgard Munch</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="carousel-img-size">
+                  <img src="../img/siglo.jpg" class="d-block" alt="siglo">
+                </div>
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>El Gran Siglo</h5>
+                  <p>René Magritte</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="carousel-img-size">
+                  <img src="../img/meninas.jpg" class="d-block" alt="meninas">
+                </div>
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Las Meninas</h5>
+                  <p>Diego de Velazques</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="carousel-img-size">
+                  <img src="../img/perla.jpg" class="d-block" alt="perla">
+                </div>
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>La Joven de la Perla</h5>
+                  <p>Johannes Vermeer</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="carousel-img-size">
+                  <img src="../img/venus.jpg" class="d-block" alt="venus">
+                </div>
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>El Nacimiento de Venus</h5>
+                  <p>Botticelli</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </section>
+    <div class="hr-footer">
+        <hr class="hr_footer">
+    </div>
     <footer>
         <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2647.814413059434!2d-123.34794609121697!3d48.421707173033745!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x548f748bac1551f1%3A0x806223c1cabb145e!2sArt%20Gallery%20of%20Greater%20Victoria!5e0!3m2!1ses-419!2sar!4v1692817063600!5m2!1ses-419!2sar" width="300" height="225" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         <p>Copyright disclaimer under Section 107 of the Copyright Act</p>
