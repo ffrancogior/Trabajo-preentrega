@@ -7,17 +7,21 @@ body {
 	height: 100%;
 	width: 100%;
 	background-color: $background-color_1;
+	
 	&::-webkit-scrollbar {
 		width: 9px;
 		background: none;
 	}
+	
 	&::-webkit-scrollbar-thumb {
 		background: rgb(165, 129, 85);
 		border-radius: 10px;
 		border-right: solid 2px $background-color_1;
+		
 		&:hover {
 			background: rgb(163, 110, 44);
 		}
+		
 		&:active {
 			background: rgb(130, 76, 11);
 		}
@@ -32,6 +36,7 @@ header {
 	background-color: $background-color_2;
 	align-items: center;
 	width: 100%;
+	
 	ul {
 		@include disp-just(flex, center);
 		list-style-type: none;
@@ -41,6 +46,7 @@ header {
 		margin-bottom: 20px;
 		text-align: center;
 		padding: 0;
+		
 		a {
 			&:hover {
 				color: $color_1;
@@ -49,16 +55,18 @@ header {
 			color: $color_2;
 		}
 	}
+	
 	li {
 		@include fonts($font-family_1, 20px, bolder)
 	}
+	.logo {
+		@include disp-just(flex, center);
+		height: 100px;
+		margin-left: 15px;
+	}
 }
 
-.logo {
-	@include disp-just(flex, center);
-	height: 100px;
-	margin-left: 15px;
-}
+
 
 .hr-footer {
 	width: 100%;

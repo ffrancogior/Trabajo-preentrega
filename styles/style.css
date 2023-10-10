@@ -62,8 +62,7 @@ header li {
   font-size: 20px;
   font-weight: bolder;
 }
-
-.logo {
+header .logo {
   display: flex;
   justify-content: center;
   height: 100px;
@@ -138,8 +137,7 @@ footer ul a:hover {
 main {
   width: 100%;
 }
-
-.index__main-img {
+main .index__main-img {
   display: flex;
   justify-content: space-evenly;
   padding-top: 25px;
@@ -147,8 +145,7 @@ main {
   flex-wrap: wrap;
   gap: 7%;
 }
-
-.index__main-img-box {
+main .index__main-img .index__main-img-box {
   margin-top: 20px;
   border: solid black 4px;
   width: 96%;
@@ -156,14 +153,13 @@ main {
   max-height: 270px;
   display: flex;
 }
-.index__main-img-box img {
+main .index__main-img .index__main-img-box img {
   width: 100%;
   height: 100%;
   object-fit: contain;
   background-color: white;
 }
-
-.index__main-txt {
+main .index__main-txt {
   font-family: lora;
   font-size: 15px;
   font-weight: 600;
@@ -172,11 +168,8 @@ main {
   padding: 10px 100px 10px 100px;
 }
 
-article {
-  width: 100%;
-}
-
 .index__article {
+  width: 100%;
   display: flex;
   justify-content: space-evenly;
   padding-top: 70px;
@@ -184,42 +177,36 @@ article {
   background-color: bisque;
   flex-wrap: wrap;
 }
-
-.index__article-1 img {
+.index__article .index__article-1 img {
   background-color: white;
   border: solid;
   box-sizing: border-box;
   padding: 0px 71px 0px 71px;
   max-height: 264px;
 }
-
-.index__article-3 img {
+.index__article .index__article-1 .index__article-2 {
+  font-family: lora;
+  font-size: 13px;
+  font-weight: 700;
+  text-align: center;
+}
+.index__article .index__article-3 img {
   max-width: 340px;
   border: solid;
 }
-
-.index__article-5 img {
+.index__article .index__article-3 .index__article-4 {
+  font-family: lora;
+  font-size: 13px;
+  font-weight: 700;
+  text-align: center;
+}
+.index__article .index__article-5 img {
   max-height: 258px;
   border: solid;
   background-color: white;
   padding: 0px 70px 0px 70px;
 }
-
-.index__article-2 {
-  font-family: lora;
-  font-size: 13px;
-  font-weight: 700;
-  text-align: center;
-}
-
-.index__article-4 {
-  font-family: lora;
-  font-size: 13px;
-  font-weight: 700;
-  text-align: center;
-}
-
-.index__article-6 {
+.index__article .index__article-5 .index__article-6 {
   font-family: lora;
   font-size: 13px;
   font-weight: 700;
@@ -229,39 +216,34 @@ article {
 .artists__section {
   background-color: bisque;
 }
-
-.artists__section-h1 {
+.artists__section .artists__section-h1 {
   font-family: quicksand;
   font-weight: bolder;
   text-decoration: underline;
   margin-left: 10px;
   margin-top: 20px;
 }
-
-.artists__section-h2 {
+.artists__section .artists__section-h2 {
   font-family: lora;
   font-size: larger;
   margin-left: 15px;
 }
 
-.g-0 {
+.artists__section-art .g-0 {
   background-color: bisque;
 }
-
-.artists__article-card-border {
+.artists__section-art .artists__article-card-border {
   border-color: bisque;
   margin-left: 15px;
 }
-
-.artists__article-card-color {
+.artists__section-art .artists__article-card-color {
   background-color: bisque;
 }
-
-.card-body h5 {
+.artists__section-art .card-body h5 {
   font-family: quicksand;
   font-weight: bold;
 }
-.card-body p {
+.artists__section-art .card-body p {
   font-family: quicksand;
   font-weight: normal;
 }
@@ -279,8 +261,7 @@ article {
   margin-top: 20px;
   margin-bottom: 50px;
 }
-
-.carousel-img-size {
+.galery__section .carousel-img-size {
   display: flex;
   width: 90%;
   height: auto;
@@ -288,43 +269,38 @@ article {
   max-height: 600px;
   margin: auto;
 }
-
-.carousel-item img {
+.galery__section .carousel-item img {
   width: 100%;
   background-color: black;
   object-fit: contain;
 }
-
-.carousel-indicators [data-bs-target] {
+.galery__section .carousel-indicators [data-bs-target] {
   width: 20px;
   height: 2px;
 }
-
-.carousel-caption {
+.galery__section .carousel-caption {
   opacity: 0.6;
   transition: 0.5s;
 }
-.carousel-caption h5 {
+.galery__section .carousel-caption h5 {
   -webkit-text-stroke-width: 1.5px;
   -webkit-text-stroke-color: black;
   font-size: 30px;
   font-weight: bolder;
 }
-.carousel-caption p {
+.galery__section .carousel-caption p {
   -webkit-text-stroke-width: 1.5px;
   -webkit-text-stroke-color: black;
   font-size: 20px;
   font-weight: bold;
 }
-.carousel-caption:hover {
+.galery__section .carousel-caption:hover {
   opacity: 1;
 }
-
-.carousel-control-next {
+.galery__section .carousel-control-next {
   width: 25%;
 }
-
-.carousel-control-prev {
+.galery__section .carousel-control-prev {
   width: 25%;
 }
 
