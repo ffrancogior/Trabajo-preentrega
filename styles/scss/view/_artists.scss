@@ -1,0 +1,43 @@
+//ARTISTS
+
+.artists__section {
+	background-color: $background-color_1;
+}
+
+.artists__section-h1 {
+	font-family: $font-family_1;
+	font-weight: bolder;
+	text-decoration: underline;
+	margin-left: 10px;
+	margin-top: 20px;
+}
+
+.artists__section-h2 {
+	font-family: $font-family_2;
+	font-size: larger;
+	margin-left: 15px;
+}
+
+.g-0 {
+	background-color: $background-color_1;
+}
+
+.artists__article-card-border {
+	border-color: $background-color_1;
+	margin-left: 15px;
+}
+
+.artists__article-card-color {
+	background-color: $background-color_1;
+}
+
+.card-body {
+	h5 {
+		font-family: $font-family_1;
+		font-weight: bold;
+	}
+	p {
+		font-family: $font-family_1;
+		font-weight: normal;
+	}
+}

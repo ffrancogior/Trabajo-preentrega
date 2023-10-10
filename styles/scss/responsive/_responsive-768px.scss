@@ -1,0 +1,26 @@
+@media (max-width: 768px) {
+	header {
+		flex-direction: column;
+		ul {
+			flex-direction: column;
+		}
+	}
+	.logo {
+		margin: 0;
+	}
+	.index__main-txt {
+		padding: 10px 25px;
+	}
+	.carousel-img-size {
+		max-height: 385px;
+	}
+	.galery__h1 {
+		text-align: center;
+	}
+	footer {
+		.map {
+			width: 40%;
+			height: 70%;
+		}
+	}
+}

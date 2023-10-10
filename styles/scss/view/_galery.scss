@@ -1,0 +1,65 @@
+//GALERY
+
+.galery__h1 {
+	@include fonts($font-family_1, 50px, bolder);
+	margin-top: 30px;
+	margin-left: 20px;
+	text-decoration: underline;
+}
+
+.galery__section {
+	margin-top: 20px;
+	margin-bottom: 50px;
+}
+
+.carousel-img-size {
+	display: flex;
+	width: 90%;
+	height: auto;
+	border: solid $color_2 3px;
+	max-height: 600px;
+	margin: auto;
+}
+
+.carousel-item {
+	img {
+		width: 100%;
+		background-color: $color_2;
+		object-fit: contain;
+	}
+}
+
+.carousel-indicators {
+	[data-bs-target] {
+		width: 20px;
+		height: 2px;
+	}
+}
+
+.carousel-caption {
+	h5 {
+		-webkit-text-stroke-width: 1.5px;
+		-webkit-text-stroke-color: $color_2;
+		font-size: 30px;
+		font-weight: bolder;
+	}
+	p {
+		-webkit-text-stroke-width: 1.5px;
+		-webkit-text-stroke-color: $color_2;
+		font-size: 20px;
+		font-weight: bold;
+	}
+	opacity: 0.6;
+	transition: 0.5s;
+	&:hover {
+		opacity: 1;
+	}
+}
+
+.carousel-control-next {
+	width: 25%;
+}
+
+.carousel-control-prev {
+	width: 25%;
+}
