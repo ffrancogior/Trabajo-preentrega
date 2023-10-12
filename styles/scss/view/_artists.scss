@@ -44,3 +44,35 @@
 		}
 	}
 }
+
+@media (max-width: 426px) {
+	.g-0 {
+	  padding-left: 90px;
+	}
+	
+	.munch-padding {
+	  padding-left: 40px;
+	}
+}
+
+@media (max-width: 376px) {
+	.g-0 {
+	  padding-left: 65px;
+	}
+	
+	
+	.munch-padding {
+	  padding-left: 12px;
+	}
+}
+
+@media (max-width: 321px) {
+	.g-0 {
+	  padding-left: 40px;
+	}
+	
+	.munch-padding {
+	  padding-left: 0px;
+	  padding-right: 15px;
+	}
+}

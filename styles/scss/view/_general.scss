@@ -143,3 +143,30 @@ footer {
 		}
 	}
 }
+
+@media (max-width: 768px) {
+	
+	header {
+	  flex-direction: column;
+	}
+	
+	header ul {
+	  flex-direction: column;
+	}
+	
+	.logo {
+	  margin: 0;
+	}
+	
+	footer .map {
+		width: 40%;
+		height: 70%;
+	  }
+}
+
+@media (max-width: 321px) {
+	.contacts {
+		flex-direction: column;
+		padding: 0;
+	}
+}

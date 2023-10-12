@@ -88,3 +88,31 @@ main {
 		}
 	}
 }
+
+@media (max-width: 768px) {
+	main .index__main-txt {
+	  	padding: 10px 20px;
+	}
+}
+
+@media (max-width: 321px) {
+	main .index__main-txt {
+		padding: 10px 10px;
+  	}
+	
+	.index__article { 
+		img {
+			width: 300px;
+			padding: 0;
+		}
+	
+		.index__article-1 img {
+	  		padding: 0px 71px 0px 71px;
+			}
+	
+		.index__article-5 img {
+	  		box-sizing: border-box;
+	  		padding: 0px 71px;
+		}
+	}
+}
