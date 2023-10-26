@@ -367,7 +367,7 @@ main .index__main-txt {
 .galery__section .carousel-img-size {
   display: flex;
   width: 90%;
-  height: auto;
+  height: 100%;
   border: solid black 3px;
   max-height: 600px;
   margin: auto;
@@ -408,6 +408,12 @@ main .index__main-txt {
 }
 
 @media (max-width: 768px) {
+  .galery__section .carousel-caption {
+    opacity: 1;
+  }
+  .galery__section .carousel-indicators button {
+    border: solid 2px black;
+  }
   .carousel-img-size {
     max-height: 385px;
   }

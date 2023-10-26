@@ -45,7 +45,7 @@
 	.carousel-img-size {
 		display: flex;
 		width: 90%;
-		height: auto;
+		height: 100%;
 		border: solid $color_2 3px;
 		max-height: 600px;
 		margin: auto;
@@ -96,6 +96,14 @@
 }
 
 @media (max-width: 768px) {
+	.galery__section {
+		.carousel-caption {
+		opacity: 1;
+		}
+		.carousel-indicators button {
+			border: solid 2px black;
+		}
+	}
 	.carousel-img-size {
 	  max-height: 385px;
 	}
