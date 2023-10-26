@@ -291,12 +291,7 @@ main .index__main-txt {
 .artists__section-art .artists__article-card-color {
   background-color: bisque;
 }
-.artists__section-art .card-body h1 {
-  font-size: 20px;
-  font-family: quicksand;
-  font-weight: bold;
-}
-.artists__section-art .card-body h5 {
+.artists__section-art .card-body h2, .artists__section-art .card-body h3, .artists__section-art .card-body h4, .artists__section-art .card-body h5, .artists__section-art .card-body h6, .artists__section-art .card-body h7 {
   font-size: 20px;
   font-family: quicksand;
   font-weight: bold;
