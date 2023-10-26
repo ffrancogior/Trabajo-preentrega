@@ -101,7 +101,7 @@ footer {
   flex-wrap: wrap;
   align-items: center;
   gap: 70px;
-  background-color: rgb(195, 154, 118);
+  background-color: rgb(159, 115, 76);
   padding-bottom: 20px;
 }
 footer .map {
@@ -126,7 +126,7 @@ footer div ul {
   margin: 0px 0px 0px 0px;
 }
 footer div ul li {
-  border-bottom: solid rgb(195, 154, 118);
+  border-bottom: solid rgb(159, 115, 76);
   margin-top: 25px;
   margin-bottom: 25px;
   font-family: quicksand;
@@ -448,7 +448,7 @@ main .index__main-txt {
   font-weight: bolder;
   text-align: center;
   text-decoration: underline;
-  color: rgb(195, 154, 118);
+  color: rgb(159, 115, 76);
 }
 .guide_section .guide_section_article-vids-1 {
   margin-top: 70px;
