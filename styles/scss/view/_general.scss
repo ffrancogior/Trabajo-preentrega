@@ -75,6 +75,7 @@ header {
 	.logo {
 		@include disp-just(flex, center);
 		height: 100px;
+		width: 100px;
 		margin-left: 15px;
 	}
 }
@@ -167,7 +168,7 @@ footer {
 	  flex-direction: column;
 	}
 	
-	.logo {
+	header .logo {
 	  margin: 0;
 	}
 	

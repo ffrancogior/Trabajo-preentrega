@@ -75,6 +75,7 @@ header .logo {
   display: flex;
   justify-content: center;
   height: 100px;
+  width: 100px;
   margin-left: 15px;
 }
 
@@ -150,7 +151,7 @@ footer ul a:hover {
   header ul {
     flex-direction: column;
   }
-  .logo {
+  header .logo {
     margin: 0;
   }
   footer .map {
