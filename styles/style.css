@@ -55,16 +55,16 @@ header ul a {
   color: black;
 }
 header ul a:hover {
-  color: rgb(210, 112, 112);
+  color: rgb(169, 55, 55);
 }
 header ul .artist-nav {
-  color: rgb(210, 112, 112);
+  color: rgb(169, 55, 55);
 }
 header ul .galery-nav {
-  color: rgb(210, 112, 112);
+  color: rgb(169, 55, 55);
 }
 header ul .guide-nav {
-  color: rgb(210, 112, 112);
+  color: rgb(169, 55, 55);
 }
 header li {
   font-family: quicksand;
@@ -291,7 +291,13 @@ main .index__main-txt {
 .artists__section-art .artists__article-card-color {
   background-color: bisque;
 }
+.artists__section-art .card-body h1 {
+  font-size: 20px;
+  font-family: quicksand;
+  font-weight: bold;
+}
 .artists__section-art .card-body h5 {
+  font-size: 20px;
   font-family: quicksand;
   font-weight: bold;
 }
