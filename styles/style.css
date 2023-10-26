@@ -116,6 +116,7 @@ footer p {
   font-weight: bold;
   display: flex;
   flex-wrap: wrap;
+  color: black;
 }
 footer div ul {
   list-style-type: none;
