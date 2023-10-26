@@ -115,11 +115,9 @@ footer {
 	}
 
 	p {
-		@include fonts($font-family_1, x-small, bold);
+		@include fonts($font-family_1, 13px, bold);
 		display: flex;
 		flex-wrap: wrap;
-		font-size: 13px;
-		color: $background-color_5;
 	}
 
 	div {

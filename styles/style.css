@@ -112,12 +112,10 @@ footer .map {
 }
 footer p {
   font-family: quicksand;
-  font-size: x-small;
+  font-size: 13px;
   font-weight: bold;
   display: flex;
   flex-wrap: wrap;
-  font-size: 13px;
-  color: white;
 }
 footer div ul {
   list-style-type: none;
