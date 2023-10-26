@@ -372,6 +372,10 @@ main .index__main-txt {
   max-height: 600px;
   margin: auto;
 }
+.galery__section .carousel-img-size carousel-img-opt {
+  width: 100%;
+  height: 100%;
+}
 .galery__section .carousel-item img {
   width: 100%;
   background-color: black;
