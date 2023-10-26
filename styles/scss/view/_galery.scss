@@ -45,15 +45,10 @@
 	.carousel-img-size {
 		display: flex;
 		width: 90%;
-		height: 100%;
+		height: auto;
 		border: solid $color_2 3px;
 		max-height: 600px;
 		margin: auto;
-
-		carousel-img-opt {
-			width: 100%;
-			height: 100%;
-		}
 	}
 	
 	.carousel-item {
@@ -61,13 +56,6 @@
 			width: 100%;
 			background-color: $color_2;
 			object-fit: contain;
-		}
-	}
-	
-	.carousel-indicators {
-		[data-bs-target] {
-			width: 20px;
-			height: 2px;
 		}
 	}
 	
@@ -101,15 +89,10 @@
 }
 
 @media (max-width: 768px) {
-	.galery__section {
-		.carousel-caption {
-		opacity: 1;
-		}
-		.carousel-indicators button {
-			border: solid 2px black;
-		}
+	.galery__section .carousel-indicators button {
+		border: solid 2px black;
 	}
-	.carousel-img-size {
+	.carousel-item img {
 	  max-height: 385px;
 	}
 	.galery__h1 {
@@ -118,7 +101,7 @@
 }
 
 @media (max-width: 426px) {
-	.carousel-img-size {
+	.carousel-item img {
 		max-height: 215px;
 	}
 	
@@ -128,7 +111,7 @@
 }
 
 @media (max-width: 376px) {
-	.carousel-img-size {
+	.carousel-item img {
 	  max-height: 189px;
 	}
 	
@@ -138,7 +121,7 @@
 }
 
 @media (max-width: 321px) {
-	.carousel-img-size {
+	.carousel-item img {
 	  max-height: 160px;
 	}
 	.galery__h1 {

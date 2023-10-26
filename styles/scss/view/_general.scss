@@ -118,6 +118,7 @@ footer {
 		@include fonts($font-family_1, x-small, bold);
 		display: flex;
 		flex-wrap: wrap;
+		font-size: 13px;
 	}
 
 	div {
