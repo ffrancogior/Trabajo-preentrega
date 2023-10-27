@@ -3,9 +3,14 @@
 	padding: 0;
 }
 
-body {
+html {
 	height: 100%;
-	width: 100%;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	min-height: 100%;
 	background-color: $background-color_1;
 	
 	&::-webkit-scrollbar {
@@ -83,6 +88,7 @@ header {
 
 
 .hr-footer {
+	margin-top: auto;
 	width: 100%;
 }
 
@@ -109,7 +115,6 @@ footer {
 
 	.map {
 		width: 20%;
-		height: 90%;
 		margin: 15px 0px 0px 15px;
 		border: solid;
 	}
@@ -155,29 +160,8 @@ footer {
 	}
 }
 
-@media (max-width: 768px) {
-	
-	header {
-	  flex-direction: column;
-	}
-	
-	header ul {
-	  flex-direction: column;
-	}
-	
-	header .logo {
-	  margin: 0;
-	}
-	
-	footer .map {
-		width: 40%;
-		height: 70%;
-	  }
-}
-
-@media (max-width: 321px) {
-	.contacts {
-		flex-direction: column;
-		padding: 0;
+@media (max-width: 1025px) {
+	footer {
+		gap: 30px;
 	}
 }
